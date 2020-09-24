@@ -39,6 +39,10 @@ USER-AGENT,Steam*
 DOMAIN-SUFFIX,pinyuncloud.com
 DOMAIN-SUFFIX,steamcontent.com
 
+# > Tesla
+DOMAIN-SUFFIX,tesla.cn
+DOMAIN-SUFFIX,tesla-cdn.thron.cn
+
 # > UUBooster
 PROCESS-NAME,UUBooster
 

@@ -14,7 +14,11 @@ DOMAIN,ip.bjango.com
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,edu.cn
 
-# > Sony
+# > RRYS
+DOMAIN-SUFFIX,p4pfile.com
+DOMAIN-SUFFIX,zmzfile.com
+
+# > Sony PSX
 USER-AGENT,RemotePlay*
 
 # > TeamViewer
