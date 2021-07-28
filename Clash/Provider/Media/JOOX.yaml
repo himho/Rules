@@ -1,5 +1,5 @@
 payload:  
   # > JOOX
-  # - User-Agent,WeMusic*
-  # - User-Agent,JOOX*
+  # - USER-AGENT,WeMusic*
+  # - USER-AGENT,JOOX*
   - DOMAIN-SUFFIX,joox.com

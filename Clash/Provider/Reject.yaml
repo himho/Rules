@@ -1,5 +1,5 @@
 # Ads in Video apps
-payload:  
+payload:
   # > iqiyi & pps
   - DOMAIN-SUFFIX,a.ckm.iqiyi.com
   - DOMAIN-SUFFIX,ad.m.iqiyi.com
@@ -36,8 +36,8 @@ payload:
   - DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
   - DOMAIN-SUFFIX,tracker.sns.iqiyi.com
   - DOMAIN-SUFFIX,yuedu.iqiyi.com
-  #  - URL-REGEX,https?://.+/videos/other/.+
-  #  - URL-REGEX,https?://paopao\w?.qiyipic.com
+  # - URL-REGEX,https?://.+/videos/other/.+
+  # - URL-REGEX,https?://paopao\w?.qiyipic.com
   - IP-CIDR,101.227.97.240/32
   - IP-CIDR,101.227.200.11/32
   - IP-CIDR,101.227.200.28/32
@@ -102,7 +102,7 @@ payload:
   - IP-CIDR,223.87.182.102/32
   - IP-CIDR,223.87.182.11/32
   - IP-CIDR,223.87.182.52/32
-  #  - URL-REGEX,https?:\/\/.+.atm.youku.com
+  # - URL-REGEX,https?:\/\/.+.atm.youku.com
 
   # > MGTV
   - DOMAIN-SUFFIX,ads-api.videojj.com
@@ -197,7 +197,7 @@ payload:
   - DOMAIN-SUFFIX,pp2.pptv.com
   - DOMAIN-SUFFIX,stat.pptv.com
   - DOMAIN-SUFFIX,static.g.pptv.com
-  #  - URL-REGEX,https?://img\w.g.pptv.com
+  # - URL-REGEX,https?://img\w.g.pptv.com
 
   # > Site
   - DOMAIN-SUFFIX,deliver.ifeng.com
@@ -205,7 +205,7 @@ payload:
   - DOMAIN-SUFFIX,hxsame.hexun.com
   - DOMAIN-SUFFIX,itv.hexun.com
   - DOMAIN-SUFFIX,utrack.hexun.com
-  #  - URL-REGEX,https?://h\w{2}.hxsame.hexun.com
+  # - URL-REGEX,https?://h\w{2}.hxsame.hexun.com
 
   # > Vod
   - DOMAIN-SUFFIX,ad.cmvideo.cn
@@ -258,50 +258,6 @@ payload:
   - DOMAIN-SUFFIX,bfshan.cn
 
 
-
-  # REJECT
-
-  # > Client
-  - DOMAIN-KEYWORD,admaster
-  - DOMAIN-KEYWORD,admdfs
-  - DOMAIN-KEYWORD,adnewnc
-  - DOMAIN-KEYWORD,adsage
-  - DOMAIN-KEYWORD,adsame
-  - DOMAIN-KEYWORD,adsensor
-  - DOMAIN-KEYWORD,adserver
-  - DOMAIN-KEYWORD,adservice
-  - DOMAIN-KEYWORD,adsmogo
-  - DOMAIN-KEYWORD,adsrvmedia
-  - DOMAIN-KEYWORD,adsserving
-  - DOMAIN-KEYWORD,adsystem
-  - DOMAIN-KEYWORD,advert
-  - DOMAIN-KEYWORD,adwords
-  - DOMAIN-KEYWORD,allyes
-  - DOMAIN-KEYWORD,analysis
-  - DOMAIN-KEYWORD,analysys
-  - DOMAIN-KEYWORD,applovin
-  - DOMAIN-KEYWORD,appsflyer
-  - DOMAIN-KEYWORD,dnserror
-  - DOMAIN-KEYWORD,domob
-  - DOMAIN-KEYWORD,duomeng
-  - DOMAIN-KEYWORD,dwtrack
-  - DOMAIN-KEYWORD,fenxi
-  - DOMAIN-KEYWORD,guanggao
-  - DOMAIN-KEYWORD,inmobi
-  - DOMAIN-KEYWORD,lianmeng
-  - DOMAIN-KEYWORD,mobaders
-  - DOMAIN-KEYWORD,omgmta
-  - DOMAIN-KEYWORD,openx
-  - DOMAIN-KEYWORD,partnerad
-  - DOMAIN-KEYWORD,securepubads
-  - DOMAIN-KEYWORD,socdm
-  - DOMAIN-KEYWORD,supersonicads
-  - DOMAIN-KEYWORD,taboola
-  - DOMAIN-KEYWORD,uedas
-  - DOMAIN-KEYWORD,umtrack
-  - DOMAIN-KEYWORD,uploadMobileData
-  - DOMAIN-KEYWORD,wlmonitor
-  - DOMAIN-KEYWORD,zjtoolbar
 
   - DOMAIN-SUFFIX,0.r.msn.com
   - DOMAIN-SUFFIX,000dn.com
@@ -1308,6 +1264,7 @@ payload:
   - DOMAIN-SUFFIX,adstextview.qq.com
   - DOMAIN-SUFFIX,adstil.indiatimes.com
   - DOMAIN-SUFFIX,ad-stir.com
+  - DOMAIN-SUFFIX,adsmind.ugdtimg.com
   - DOMAIN-SUFFIX,adstream.123.sogoucdn.com
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,ads-v-darwin.hulustream.com
@@ -1321,6 +1278,7 @@ payload:
   - DOMAIN-SUFFIX,adsys.chinacloudapp.cn
   - DOMAIN-SUFFIX,adsys.sinovision.net
   - DOMAIN-SUFFIX,adtaily.com
+  - DOMAIN-SUFFIX,ad-tech.nbcuni.co
   - DOMAIN-SUFFIX,adtechjp.com
   - DOMAIN-SUFFIX,adtechus.com
   - DOMAIN-SUFFIX,adtest.theonion.com
@@ -1581,7 +1539,6 @@ payload:
   - DOMAIN-SUFFIX,app.9yyg.cn
   - DOMAIN-SUFFIX,app.abc000.today
   - DOMAIN-SUFFIX,app.acm.dzwww.com
-  - DOMAIN-SUFFIX,app.adjust.com
   - DOMAIN-SUFFIX,app.eduancm.com
   - DOMAIN-SUFFIX,app.houyi.baofeng.net
   - DOMAIN-SUFFIX,app.hytdsm.com
@@ -2296,7 +2253,6 @@ payload:
   - DOMAIN-SUFFIX,chnhty.com
   - DOMAIN-SUFFIX,chuantu.biz
   - DOMAIN-SUFFIX,chushoushijian.cn
-  - DOMAIN-SUFFIX,c-hzgt2.getui.com
   - DOMAIN-SUFFIX,ci.csefaazc.net
   - DOMAIN-SUFFIX,ciajingman.com
   - DOMAIN-SUFFIX,cilidaquan.pw
@@ -2921,10 +2877,6 @@ payload:
   - DOMAIN-SUFFIX,dot2.eporner.com
   - DOMAIN-SUFFIX,dotmore.com.tw
   - DOMAIN-SUFFIX,dou777.com
-  - DOMAIN-SUFFIX,doubleclick.com
-  - DOMAIN-SUFFIX,doubleclick.ctfile.com
-  - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,doubleclick.tv002.com
   - DOMAIN-SUFFIX,doubleplay-conf-yql.media.yahoo.com
   - DOMAIN-SUFFIX,doubleverify.com
   - DOMAIN-SUFFIX,doudao.cn
@@ -2958,7 +2910,6 @@ payload:
   - DOMAIN-SUFFIX,downloadb.dewmobile.net
   - DOMAIN-SUFFIX,downmobile.kugou.com
   - DOMAIN-SUFFIX,dp.559.cc
-  - DOMAIN-SUFFIX,dp3.qq.com
   - DOMAIN-SUFFIX,dpm.demdex.net
   - DOMAIN-SUFFIX,dps.499.cn
   - DOMAIN-SUFFIX,dps.shouji56.com
@@ -3595,7 +3546,6 @@ payload:
   - DOMAIN-SUFFIX,g1.0573ren.com
   - DOMAIN-SUFFIX,g1.08160.cn
   - DOMAIN-SUFFIX,g1.163.com
-  - DOMAIN-SUFFIX,g1.tagtic.cn
   - DOMAIN-SUFFIX,g1.taijuba.com
   - DOMAIN-SUFFIX,g1c5.com
   - DOMAIN-SUFFIX,g1f5.com
@@ -3740,8 +3690,6 @@ payload:
   - DOMAIN-SUFFIX,good.ta80.com
   - DOMAIN-SUFFIX,googlecommerce.com
   - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,goolpter.com
   - DOMAIN-SUFFIX,gopig.io
   - DOMAIN-SUFFIX,gorgon.youdao.com
@@ -7769,7 +7717,7 @@ payload:
   - DOMAIN-SUFFIX,wxmmh.net
   - DOMAIN-SUFFIX,wxsnsdy.tc.qq.com
   - DOMAIN-SUFFIX,wxsnsdy.video.qq.com
-  - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
+  - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
   - DOMAIN-SUFFIX,wxtz.houmags.com
   - DOMAIN-SUFFIX,wxwm1.ikuailian.com
   - DOMAIN-SUFFIX,wxwm2.ikuailian.com
@@ -8260,26 +8208,26 @@ payload:
   - DOMAIN,newvector.map.baidu.com
   - DOMAIN,ulog.imap.baidu.com
   - DOMAIN,newloc.map.n.shifen.com
-  #  - URL-REGEX,^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php
-  #  - URL-REGEX,^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
+  # - URL-REGEX,^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php
+  # - URL-REGEX,^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
 
   # > Bilibili
   - DOMAIN,miniapp.bilibili.com
   - DOMAIN,thirdparty.biliapi.com
-  #  - URL-REGEX,https://app.bilibili.com/x/v2/param
-  #  - URL-REGEX,https://app.bilibili.com/x/resource/abtest
-  #  - URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report-TINYGIF
-  #  - URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource)
-  #  - URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
-  #  - URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
+  # - URL-REGEX,https://app.bilibili.com/x/v2/param
+  # - URL-REGEX,https://app.bilibili.com/x/resource/abtest
+  # - URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report-TINYGIF
+  # - URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource)
+  # - URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
+  # - URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
 
   # > Didi
-  #  - URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
+  # - URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 
   # > ele
   - DOMAIN,log.star.ele.me
 
-  # >> Netease
+  # > Netease
   - DOMAIN,ad.bn.netease.com
   - DOMAIN,ad.yixin.im
   - DOMAIN,iadmat.nosdn.127.net
@@ -8296,45 +8244,46 @@ payload:
   - DOMAIN,rd.da.netease.com
   - DOMAIN,wr.da.netease.com
   - DOMAIN,yt-adp.nosdn.127.net
-  #  - URL-REGEX,^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
-  #  - URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
+  # - URL-REGEX,^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
+  # - URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
 
   # > Zhihu
   - DOMAIN,mqtt.zhihu.com
   - DOMAIN,sugar.zhihu.com
   - DOMAIN-SUFFIX,xdrig.com
-  #  - URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
-  #  - URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
-  #  - URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
-  #  - URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
+  # - URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
+  # - URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
+  # - URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
+  # - URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
 
-  #  - URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
-  #  - URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
-  #  - URL-REGEX,https?://[^bbs].tianya\.cn
-  #  - URL-REGEX,https?://\w.?up.qingdaonews.com
-  #  - URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
-  #  - URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
-  #  - URL-REGEX,https?://\w+.cloudfront.net/banner
-  #  - URL-REGEX,https?://\w+.gdt.qq.com
-  #  - URL-REGEX,https?://\w+.kingsoft-office-service.com
-  #  - URL-REGEX,https?://9377\w{2}.com
-  #  - URL-REGEX,https?://a0b\w{2}.com
-  #  - URL-REGEX,https?://(a?d|sax)\d.sina.com
-  #  - URL-REGEX,https?://d\d.sinaimg.cn
-  #  - URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
-  #  - URL-REGEX,https?://impservice.+?youdao.com
-  #  - URL-REGEX,https?://notice.send-anywhere.com/banner
-  #  - URL-REGEX,https?://sax\w?.sina.cn
-  #  - URL-REGEX,https?://sax\w?.sina.com.cn
-  #  - URL-REGEX,https?://server-\w+.imrworldwide.com
-  #  - URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
+  # - URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
+  # - URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
+  # - URL-REGEX,https?://[^bbs].tianya\.cn
+  # - URL-REGEX,https?://\w.?up.qingdaonews.com
+  # - URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
+  # - URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
+  # - URL-REGEX,https?://\w+.cloudfront.net/banner
+  # - URL-REGEX,https?://\w+.gdt.qq.com
+  # - URL-REGEX,https?://\w+.kingsoft-office-service.com
+  # - URL-REGEX,https?://9377\w{2}.com
+  # - URL-REGEX,https?://a0b\w{2}.com
+  # - URL-REGEX,https?://(a?d|sax)\d.sina.com
+  # - URL-REGEX,https?://d\d.sinaimg.cn
+  # - URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
+  # - URL-REGEX,https?://impservice.+?youdao.com
+  # - URL-REGEX,https?://mi.gdt.qq.com/gdt_mview.fcg
+  # - URL-REGEX,https?://notice.send-anywhere.com/banner
+  # - URL-REGEX,https?://sax\w?.sina.cn
+  # - URL-REGEX,https?://sax\w?.sina.com.cn
+  # - URL-REGEX,https?://server-\w+.imrworldwide.com
+  # - URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
 
   - IP-CIDR,39.107.15.115/32
   - IP-CIDR,47.89.59.182/32
   - IP-CIDR,103.49.209.27/32
   - IP-CIDR,123.56.152.96/32
 
-# > China Net
+  # > China Net
   - IP-CIDR,61.160.200.223/32
   - IP-CIDR,61.160.200.242/32
   - IP-CIDR,61.160.200.252/32
@@ -8352,18 +8301,18 @@ payload:
   - IP-CIDR,222.186.61.96/32
   - IP-CIDR,222.186.61.97/32
 
-# > China Unicom
+  # > China Unicom
   - IP-CIDR,106.75.231.48/32
   - IP-CIDR,119.4.249.166/32
   - IP-CIDR,220.196.52.141/32
   - IP-CIDR,221.6.4.148/32
 
-# > China Mobile
+  # > China Mobile
   - IP-CIDR,114.247.28.96/32
   - IP-CIDR,221.179.131.72/32
   - IP-CIDR,221.179.140.145/32
 
-# > Dr.Peng
+  # > Dr.Peng
   - IP-CIDR,10.72.25.0/24
   - IP-CIDR,115.182.16.79/32
   - IP-CIDR,118.144.88.126/32

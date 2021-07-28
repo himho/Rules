@@ -1,4 +1,4 @@
 payload:  
   # > Youtube Music
-  # - User-Agent,*YouTubeMusic*
-  # - User-Agent,*com.google.ios.youtubemusic*
+  # - USER-AGENT,*YouTubeMusic*
+  # - USER-AGENT,*com.google.ios.youtubemusic*
